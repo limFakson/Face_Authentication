@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="Face_Auth",
-    version="1.1",
+    name="face_auth",
+    version="1.0.1",
     packages=find_packages(),
     install_requires=["face_recognition", "numpy", "dlib"], 
     author="limFakson",
@@ -11,7 +11,7 @@ setup(
     designed to be used for face authentication in place of the traditional password authentication.
     """,
     author_email="fakeyejoshua2005@gmail.com",
-    url="https://github.com/limFakson/",
+    url="https://github.com/limFakson/Face_Authentication",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
